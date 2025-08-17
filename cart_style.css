@@ -1,0 +1,89 @@
+.offcanvas {
+    width: 400px;
+}
+
+.products{
+    min-height: 20vh;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(136, 136, 133);
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.product-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-price {
+    color: black;
+    font-size: 14px;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.product-quantity-input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.product-remove {
+    margin-left: 10px;
+    
+}
+
+.summary {
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.summary-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkout-button {
+    background-color: #0e0e0e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#quantity{
+    padding: 5px 15px;
+}

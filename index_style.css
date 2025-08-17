@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 16px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    color: rgb(146, 8, 8);
+    font-size: 16px;
+}
+
+#add-button {
+    /* background-color: black; */
+    /* border: none; */
+    /* color: white; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.fa-cart-shopping{
+    color: aliceblue;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 12px;
+}
+
+.fa-user{
+    color: aliceblue;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 12px;
+}
+
+
+#icon-font{
+    height: 20px;
+    width: 20px;
+    padding: 0%;
+    padding-top: 12%;
+    font-size: 12px;
+    /* margin-right: 2px; */
+    
+    text-align: center;
+}
+
+#icon-font{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+#icon-user{
+    height: 2px;
+    width: 2px;
+    padding: 20%;
+    display: block;
+    visibility: hidden;
+}
+
+
+
+ /* for alert  */
+#showAlert {
+    /* position: sticky; */
+    top: 0px; /* Adjust this value based on your navbar height */
+    z-index: 1000; /* Ensure the alert is above the navbar */
+    padding: 0px;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+#pakToolTip {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: -2px;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+#pakToolTip ul{
+    padding:0px 8px;
+    margin: 0;
+    width: auto;
+}
+
+#pakToolTip ul li{
+    margin-bottom: 19px;
+    width: 66px;
+    cursor: pointer;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
